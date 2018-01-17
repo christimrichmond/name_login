@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Name Login</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+  </head>
+
+<body>
+Welcome, <% full_name = fname(fname.capitalize)
+if full_name == nil
+full_name = "Invalid name. Please try again." 
+end %>
+<%= full_name %>
+<br>
+<br>
+<br>
+Have a nice day!
+<br>
+<a href='//localhost:4567'>Back</a>
+</center>
+</body>
+</form>
+</html>
