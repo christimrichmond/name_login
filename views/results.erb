@@ -14,15 +14,44 @@
 
     <!-- Custom styles for this template -->
     <link href="signin.css" rel="stylesheet">
+    <style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: (//background.jpg);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<div class="bg"></div>
   </head>
 
 <body>
+    <div class="bg"></div>
 Welcome, <% full_name = fname(fname.capitalize)
-if full_name == nil
-full_name = "Invalid name. Please try again." 
-end %>
-<%= full_name %>
+    if full_name == nil
+        full_name = "Invalid name. Please try again." 
+    end %>
+
+<%= full_name %>!
+
 <br>
+<%= name_pic = fname(fname_pic) %>
+<%= name_pic %>
+
 <br>
 <br>
 Have a nice day!
