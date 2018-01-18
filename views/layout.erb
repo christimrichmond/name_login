@@ -17,37 +17,23 @@
     <link href="starter-template.css" rel="stylesheet">
   </head>
 
-<style>
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  	font-size: 14px;
-    text-align: center;
-
-
-</style>
-
-
   <body>
-
-
 
     <div class = "center-body"> 
         <%= yield %>
     </div>
   </body>
 
-<footer>
-<div class="footer">
-  <p>© Christi Richmond, 2018</p>
-</div>
+<style>
+.bg-4 { 
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+</style>
 
+<footer class="container-fluid bg-4 text-center">
+  <p>© 2018, Christi Richmond. <br>
+    Visit my <a href="https://christirichmond.com" target="blank">website</a> for more examples of my work.</p> 
 </footer>
-
 </html>
 

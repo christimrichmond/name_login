@@ -1,46 +1,11 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
+<div class="jumbotron text-center">
+  <h1>Student Login</h1>
+</div>
 
-    <title>Name Login</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="signin.css" rel="stylesheet">
-    <style>
-body, html {
-    height: 100%;
-    margin: 0;
-}
-
-.bg {
-    /* The image used */
-    background-image: (//background.jpg);
-
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-</style>
-</head>
-<body>
-
-<div class="bg"></div>
-  </head>
-
-<body>
-    <div class="bg"></div>
+<body style="background-color:powderblue;">
+<center>
+<h5>
 Welcome, <% full_name = fname(fname.capitalize)
     if full_name == nil
         full_name = "Invalid name. Please try again." 
@@ -55,9 +20,10 @@ Welcome, <% full_name = fname(fname.capitalize)
 <br>
 <br>
 Have a nice day!
+</h5>
 <br>
-<a href='//localhost:4567'>Back</a>
+<a href='//localhost:4567'>Enter Another Name</a>
+<br><br><br><br><br>
 </center>
 </body>
-</form>
 </html>
